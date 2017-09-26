@@ -45,9 +45,13 @@ nmap <c-n> <Plug>yankstack_substitute_newer_paste
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
 
-let g:ctrlp_map = '<c-f>'
+" let's not map ctrl-f to ctrlp 2017/09/26 tin@le.org
+" let g:ctrlp_map = '<c-f>'
+
 map <leader>j :CtrlP<cr>
-map <c-b> :CtrlPBuffer<cr>
+
+" let's not map ctrl-b to ctrlp 2017/09/26 tin@le.org
+" map <c-b> :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'

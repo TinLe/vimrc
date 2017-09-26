@@ -202,7 +202,9 @@ set tw=500
 
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
+""""""""""""""""""""""""
+" I don't like wrap lines - 2017/09/26 tin@le.org
+" set wrap "Wrap lines
 
 
 """"""""""""""""""""""""""""""
